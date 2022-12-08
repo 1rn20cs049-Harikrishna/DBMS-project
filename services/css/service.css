@@ -1,0 +1,26 @@
+
+.service_section-heading {
+    color: #183b56;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.service_section-description {
+    font-size: 14px;
+    color: #616c7c;
+    font-weight: 600;
+}
+
+.service-logo {
+    height: 100px;
+}
+
+.service-card-heading {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.service-card-description {
+    color: #7b8794;
+    font-size: 18px;
+}

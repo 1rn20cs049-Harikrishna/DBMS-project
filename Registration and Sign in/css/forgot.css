@@ -1,0 +1,26 @@
+ body{
+/*
+             font-family: "Roboto";
+*/
+        background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(232,70,252,1) 100%);
+              }
+
+              .login-form{
+                boder-style: solid;
+                border-width: 1px;
+                border-color: red;
+                background-color: white;
+                padding: 30px 30px;
+                margin-top: 150px;
+                border-radius: 8px;
+              }
+              .bi{
+               color:  rgb(63,94,251);
+              }
+
+             form-control{
+                background-color:#C0C0C0;
+              }
+
+      

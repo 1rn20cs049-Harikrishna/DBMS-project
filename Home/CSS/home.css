@@ -1,0 +1,135 @@
+body{
+	overflow-x: hidden;
+}
+.full_cart{
+	background-color: #DCDCDC;
+}
+.dropdown:hover  .dropdown-menu{
+	display: block;
+}
+.nav-link{
+	 color:#fff ;
+	 font-size: 18px;
+	 font-weight: bold;
+}
+.nav-link:hover{
+ text-decoration-line: underline;
+ text-decoration-color:Tomato;
+text-decoration-thickness: 1.5px;
+text-decoration: none;
+  
+}
+
+.navbar-image {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.Category {
+	list-style-type: none;
+	padding-left: 6px;
+	margin-top: 2px;
+	position: relative;
+}
+.Category p{
+	padding-left: 7px;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+.Category li{
+
+	padding-left: 13px;
+
+}
+.Category li:hover{
+	cursor: pointer;
+	color: 		#dc143c	;
+	
+}
+.card-title{
+line-height: 1.2rem;
+}
+
+ #addcart{
+ 	font-size: 10px;
+ }
+
+
+/* home page body*/
+
+.carousel-image{
+	object-fit: cover;
+	object-position: center;
+	overflow: hidden;
+	height:50vh;
+}
+.carousel-1{
+	position: relative;
+
+}
+.carousel .carousel-item {
+  height: 500px;
+}
+
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 500px;
+}
+
+.img-car{
+	height:120px;
+
+}
+
+.carousel-image3,.carousel-image2,.carousel-image1{
+background-image: url("./../image/analysis.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: red;
+}
+
+.card-img{
+	hight:150px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.detailed-view-bg-container {
+  background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/seabg.png");
+  height: 100vh;
+  background-size: cover;
+}
+.detailed-view-heading {
+  color: white;
+  font-family: "Roboto";
+  font-size: 28px;
+  font-weight: bold;
+  padding: 24px;
+}
+.detailed-view-card-container {
+  background-color: white;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  margin: 24px;
+}
+.detailed-view-card-heading {
+  color: #0f0e46;
+  font-family: "Roboto";
+  font-size: 23px;
+  font-weight: bold;
+}
+.detailed-view-card-description {
+  color: #6c6b70;
+  font-family: "Roboto";
+  font-size: 13px;
+}
+.detailed-view-card-text-container {
+  padding: 16px;
+}
